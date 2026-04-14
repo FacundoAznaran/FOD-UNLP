@@ -1,0 +1,25 @@
+# Ejecutables (archivos sin extensión en Linux o .exe en Windows)
+# Si tus ejercicios no tienen extensión, podés ignorar patrones específicos
+# o carpetas de salida.
+*.exe
+*.out
+
+# Archivos de objeto y unidades compiladas de Free Pascal
+*.o
+*.ppu
+*.cu
+*.pau
+*.log
+
+# Archivos temporales y de configuración de Lazarus (si lo usas)
+lib/
+backup/
+*.lps
+*.lrs
+*.lfm
+*.compiled
+*.bak
+
+# Archivos ocultos de sistema
+.DS_Store
+Thumbs.db
